@@ -23,6 +23,9 @@
 #include "tcpport.h"
 #include "network_utilities.h"
 
+#define EXT_FLASH_NAME "CFI_FLASH"
+#define EXT_FLASH_BASE CFI_FLASH_REGION_BASE
+
 #define IP4_ADDR(ipaddr, a,b,c,d) ipaddr = \
     htonl((((alt_u32)(a & 0xff) << 24) | ((alt_u32)(b & 0xff) << 16) | \
           ((alt_u32)(c & 0xff) << 8) | (alt_u32)(d & 0xff)))
