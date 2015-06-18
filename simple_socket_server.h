@@ -110,19 +110,19 @@ void SSSCreateTasks();
  *      Gateway: 192.168.1.1
  *  Subnet Mask: 255.255.255.0
  */
-#define IPADDR0   0
-#define IPADDR1   0
-#define IPADDR2   0
-#define IPADDR3   0
+#define IPADDR0   134
+#define IPADDR1   158
+#define IPADDR2   124
+#define IPADDR3   188
 
-#define GWADDR0   0
-#define GWADDR1   0
-#define GWADDR2   0
-#define GWADDR3   0
+#define GWADDR0   134
+#define GWADDR1   158
+#define GWADDR2   120
+#define GWADDR3   1
 
 #define MSKADDR0  255
 #define MSKADDR1  255
-#define MSKADDR2  255
+#define MSKADDR2  248
 #define MSKADDR3  0
 
 /*
