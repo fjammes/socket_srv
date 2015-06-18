@@ -1,6 +1,8 @@
 # socket_srv
 A socket server running on Altera CyclonIV NIOS
 
+See http://www.fpga-dev.com/altera-usb-blaster-with-ubuntu/ to setup your usb connection between Linux and Altera CyclonIV
+
 1. load $HOME/src/socket_server/hw/fpga_config.sof with quatus (quartus&: Tools->Programmer->Add file->Start)
    green led near ethernet port will light
    close quartus
@@ -10,3 +12,4 @@ A socket server running on Altera CyclonIV NIOS
 	Templates: Socket Server (RGMII)i
    ->Finish
 3. Overwrite code with current git repos
+
