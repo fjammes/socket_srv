@@ -30,3 +30,13 @@
 
 # Debug files
 *.dSYM/
+
+# Altera binaries
+/obj/
+/socket_srv.map
+/socket_srv.objdump
+
+# Eclipse files
+/.project
+/.cproject
+/.settings
