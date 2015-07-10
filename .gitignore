@@ -31,12 +31,14 @@
 # Debug files
 *.dSYM/
 
-# Altera binaries
+# Altera generated files 
 /obj/
 /socket_srv.map
 /socket_srv.objdump
 
-# Eclipse files
+# Eclipse generated files
 /.project
 /.cproject
 /.settings
+/Makefile
+/create-this-app
